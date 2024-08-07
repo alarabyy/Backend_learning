@@ -1,0 +1,10 @@
+D:\My_code\back_end\DESKTOP\13_System_school\bin\Debug\13_System_school.exe.config
+D:\My_code\back_end\DESKTOP\13_System_school\bin\Debug\13_System_school.exe
+D:\My_code\back_end\DESKTOP\13_System_school\bin\Debug\13_System_school.pdb
+D:\My_code\back_end\DESKTOP\13_System_school\obj\Debug\13_System_school.csproj.AssemblyReference.cache
+D:\My_code\back_end\DESKTOP\13_System_school\obj\Debug\_13_System_school.Form1.resources
+D:\My_code\back_end\DESKTOP\13_System_school\obj\Debug\_13_System_school.Properties.Resources.resources
+D:\My_code\back_end\DESKTOP\13_System_school\obj\Debug\13_System_school.csproj.GenerateResource.cache
+D:\My_code\back_end\DESKTOP\13_System_school\obj\Debug\13_System_school.csproj.CoreCompileInputs.cache
+D:\My_code\back_end\DESKTOP\13_System_school\obj\Debug\13_System_school.exe
+D:\My_code\back_end\DESKTOP\13_System_school\obj\Debug\13_System_school.pdb

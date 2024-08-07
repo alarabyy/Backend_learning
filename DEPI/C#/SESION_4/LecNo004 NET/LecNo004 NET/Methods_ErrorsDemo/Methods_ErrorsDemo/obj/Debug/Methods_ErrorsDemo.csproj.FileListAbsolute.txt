@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\bin\Debug\Methods_ErrorsDemo.exe.config
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\bin\Debug\Methods_ErrorsDemo.exe
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\bin\Debug\Methods_ErrorsDemo.pdb
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\obj\Debug\Methods_ErrorsDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\obj\Debug\Methods_ErrorsDemo.Form1.resources
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\obj\Debug\Methods_ErrorsDemo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\obj\Debug\Methods_ErrorsDemo.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\obj\Debug\Methods_ErrorsDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\obj\Debug\Methods_ErrorsDemo.exe
+C:\Users\Administrator\Desktop\LecNo004 NET\Methods_ErrorsDemo\Methods_ErrorsDemo\obj\Debug\Methods_ErrorsDemo.pdb

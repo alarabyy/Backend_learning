@@ -1,0 +1,64 @@
+Declaring & Calling Methods:
+-----------------------------
+Method : Encapsualted code to Execute action or return value
+Method is a class Memeber
+Method Types:
+	Return
+	Void
+Syntax:
+public Type MethodName(Paramter List)
+{
+	body code 
+	return ....;
+}
+
+public void MethodName(Paramter List)
+{
+	body code 
+	
+}
+
+1- void without paramters
+2- void with paramters
+3- return without paramters
+4- return with paramters
+5- overloading
+6- use array as paramter + params keyword
+7- optional paramters
+8- calling method with Different orders of paramters = use paramter name
+9- passing paramters by 
+	- value
+	- reference
+	- out paramter
+10- refactoring --> Extract to Method
+
+Error Handling:
+----------------
+Error Types:
+-------------
+1- Syntax Error --> no Execution until fix error
+2- Logical Error --> Execution + Results 
+		Break point -> Debug Mode = Trace
+3- RunTime Errors --> Exceptions
+
+Use Try/Catch Block
+try
+{
+	code to try
+}
+catch()
+{
+	Error Handle
+	throw
+}
+catch()
+{
+	Error Handle
+	throw
+}
+
+finally
+{
+	
+}
+
