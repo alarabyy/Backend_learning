@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_13_System_school.Students">
+    <Position X="10.25" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIAgEAAAACAUAAIBAgBAAAAAAAAAAEBAAQAAAEABAg=</HashCode>
+      <FileName>Students.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_13_System_school.Graduated">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAEAAAAAA=</HashCode>
+      <FileName>Graduated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_13_System_school.Program" Collapsed="true">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

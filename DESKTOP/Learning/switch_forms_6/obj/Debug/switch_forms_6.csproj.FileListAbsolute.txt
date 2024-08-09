@@ -1,0 +1,11 @@
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\bin\Debug\switch_forms_6.exe.config
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\bin\Debug\switch_forms_6.exe
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\bin\Debug\switch_forms_6.pdb
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\obj\Debug\switch_forms_6.csproj.AssemblyReference.cache
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\obj\Debug\switch_forms_6.Form1.resources
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\obj\Debug\switch_forms_6.Properties.Resources.resources
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\obj\Debug\switch_forms_6.csproj.GenerateResource.cache
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\obj\Debug\switch_forms_6.csproj.CoreCompileInputs.cache
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\obj\Debug\switch_forms_6.exe
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\obj\Debug\switch_forms_6.pdb
+D:\My_code\back_end\DESKTOP\ME\switch_forms_6\obj\Debug\switch_forms_6.Form2.resources

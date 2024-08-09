@@ -1,0 +1,10 @@
+D:\My_code\back_end\DESKTOP\ME\create_form7\bin\Debug\create_form7.exe.config
+D:\My_code\back_end\DESKTOP\ME\create_form7\bin\Debug\create_form7.exe
+D:\My_code\back_end\DESKTOP\ME\create_form7\bin\Debug\create_form7.pdb
+D:\My_code\back_end\DESKTOP\ME\create_form7\obj\Debug\create_form7.csproj.AssemblyReference.cache
+D:\My_code\back_end\DESKTOP\ME\create_form7\obj\Debug\create_form7.Form1.resources
+D:\My_code\back_end\DESKTOP\ME\create_form7\obj\Debug\create_form7.Properties.Resources.resources
+D:\My_code\back_end\DESKTOP\ME\create_form7\obj\Debug\create_form7.csproj.GenerateResource.cache
+D:\My_code\back_end\DESKTOP\ME\create_form7\obj\Debug\create_form7.csproj.CoreCompileInputs.cache
+D:\My_code\back_end\DESKTOP\ME\create_form7\obj\Debug\create_form7.exe
+D:\My_code\back_end\DESKTOP\ME\create_form7\obj\Debug\create_form7.pdb

@@ -1,0 +1,10 @@
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\bin\Debug\combo_box_8.exe.config
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\bin\Debug\combo_box_8.exe
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\bin\Debug\combo_box_8.pdb
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\obj\Debug\combo_box_8.csproj.AssemblyReference.cache
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\obj\Debug\combo_box_8.Form1.resources
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\obj\Debug\combo_box_8.Properties.Resources.resources
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\obj\Debug\combo_box_8.csproj.GenerateResource.cache
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\obj\Debug\combo_box_8.csproj.CoreCompileInputs.cache
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\obj\Debug\combo_box_8.exe
+D:\My_code\back_end\DESKTOP\ME\combo_box_8\obj\Debug\combo_box_8.pdb
