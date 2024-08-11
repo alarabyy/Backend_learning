@@ -1,89 +1,84 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _13_System_school
+namespace System_school
 {
     public class Students
     {
-        //default consrtactor
+        // Events
+        public event EventHandler OnFinalYear;
+        public event EventHandler OnNextGrad;
+
+        // Default constructor
         public Students()
         {
         }
-        //first name and last args consrtactor
-        public Students(string firstname , string lastname) 
+
+        // Constructor with first name and last name
+        public Students(string firstname, string lastname)
         {
-            this.Firstname = firstname;
-            this.Lastname = lastname;
+            Firstname = firstname;
+            Lastname = lastname;
         }
-        //birthdate args consrtactor
-    
+
+        // Full constructor
         public Students(string firstname, string lastname, DateTime birthdate, string studentnumber)
         {
-            this.Firstname = firstname;
-            this.Lastname = lastname;
-            this.birthdate = birthdate;
-            this.studentnumber = studentnumber;
+            Firstname = firstname;
+            Lastname = lastname;
+            Birthdate = birthdate;
+            Studentnumber = studentnumber;
         }
-        //===============================================================
-        //===============================================================
-        //===============================================================
-        //===============================================================
-        private string Fullname { get; set; }
-        private int age { get; set; }
-        public string studentnumber { get; set; }
-        public string Firstname { get; set; }
-        public string Lastname { get; set; }
-        public DateTime birthdate { get; set; }
-        public DateTime Joindate { get; set; }
-        public string Classname { get; set; }
-        public string Grades { get; set; }
-        public string Level { get; set; }
-        public double[] Marks { get; set; }
-        public Byte[] Picture { get; set; }
-        public string Picturepath { get; set; }
-        public int Studentnumbers { get; set; }
-        public int Traininghourse { get; set; }
-        //===============================================================
 
-        private string GetFullName()
+        // Private properties
+        private string Fullname
         {
-            return Fullname = Firstname +"-"+ Lastname;
+            get { return $"{Firstname} - {Lastname}"; }
         }
-  
-        //calc birth day
-        private DateTime BirthDate
+
+        private int Age
         {
-            get { return birthdate; }
-            set
+            get
             {
-                DateTime now = DateTime.Now;
-                TimeSpan timeSpan = now - birthdate;
-                Convert.ToInt32(timeSpan.TotalDays);
+                int age = DateTime.Now.Year - Birthdate.Year;
+                if (DateTime.Now < Birthdate.AddYears(age))
+                {
+                    age--;
+                }
+                return age;
             }
         }
-        //calc join  date
-        public DateTime JoinDate
+
+        // Public properties
+        public string Studentnumber { get; set; }
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public DateTime Birthdate { get; set; }
+        public virtual DateTime JoinDate
         {
             get { return Joindate; }
             set
             {
-                if (value >= birthdate.AddYears(6))
+                if (value >= Birthdate.AddYears(6))
                 {
                     Joindate = value;
                 }
                 else
                 {
-                    throw new ArgumentException("JoinDate must be at least 6 years after BirthDate.");
+                    MessageBox.Show("JoinDate must be at least 6 years after BirthDate.");
                 }
             }
         }
-        //===================================================================================
+        public DateTime Joindate { get; private set; }
+        public string Classname { get; set; }
+        public Grade Grades { get; set; }
+        public string Level { get; set; }
+        public double[] Marks { get; set; }
+        public byte[] Picture { get; set; }
+        public string Picturepath { get; set; }
+        public int Traininghours { get; set; }
 
+        // Calculate total marks
         public virtual double Total()
         {
             if (Marks == null || Marks.Length == 0)
@@ -97,8 +92,8 @@ namespace _13_System_school
             }
             return total;
         }
-        //===================================================================================
 
+        // Calculate percentage
         public virtual double Percentage()
         {
             if (Marks == null || Marks.Length == 0)
@@ -107,48 +102,51 @@ namespace _13_System_school
             }
             return (Total() / Marks.Length) * 100;
         }
-        //===================================================================================
 
+        // Generate report
         public virtual string Report()
-        { 
-            return $"Student: {GetFullName()}\n" +
-                   $"studentnumber:{studentnumber}\n"+
+        {
+            return $"Student: {Fullname}\n" +
+                   $"Student Number: {Studentnumber}\n" +
                    $"Grade Level: {Grades}\n" +
-                   $"birthdate: {birthdate}\n" +
+                   $"Birthdate: {Birthdate.ToShortDateString()}\n" +
                    $"Join Date: {Joindate.ToShortDateString()}\n" +
-                   $"age: {birthdate}\n"  ; 
+                   $"Age: {Age}\n";
         }
 
-                //===================================================================================
+        // Check if the student is in final year and trigger event
+        public virtual void CheckFinalYear()
+        {
+            if (Grades == Grade.Grade12)
+            {
+                OnFinalYear?.Invoke(this, EventArgs.Empty);
+            }
+        }
 
-        //===============================================================
-        //===============================================================
-        //===============================================================
+        // Check if the percentage is over 50 and trigger event
+        public virtual void CheckGrade()
+        {
+            if (Percentage() > 50)
+            {
+                OnNextGrad?.Invoke(this, EventArgs.Empty);
+            }
+        }
+
+        // Enumeration for grade levels
         public enum Grade
         {
-            grade1=1,
-            grade2,
-            grade3,
-            grade4,
-            grade5,
-            grade6,
-            grade7,
-            grade8,
-            grade9,
-            grade10
+            Grade1 = 1,
+            Grade2,
+            Grade3,
+            Grade4,
+            Grade5,
+            Grade6,
+            Grade7,
+            Grade8,
+            Grade9,
+            Grade10,
+            Grade11,
+            Grade12
         }
-
-       
- 
-        //===================================================================================
-        //===================================================================================
-        //===================================================================================
-        //===================================================================================
-        //===================================================================================
-    
-
-
-
-
     }
 }

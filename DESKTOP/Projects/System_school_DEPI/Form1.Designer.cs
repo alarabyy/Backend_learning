@@ -1,4 +1,4 @@
-﻿namespace _13_System_school
+﻿namespace System_school
 {
     partial class Form
     {
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.dateTimePicker22 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker11 = new System.Windows.Forms.DateTimePicker();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -46,6 +47,9 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -53,6 +57,10 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.dateTimePicker22);
             this.groupBox1.Controls.Add(this.dateTimePicker11);
             this.groupBox1.Controls.Add(this.pictureBox2);
@@ -79,6 +87,18 @@
             this.groupBox1.Text = "System School";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(485, 294);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(351, 38);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "Save Data";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
             // dateTimePicker22
             // 
             this.dateTimePicker22.Location = new System.Drawing.Point(224, 245);
@@ -96,12 +116,13 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox2.Location = new System.Drawing.Point(664, 99);
+            this.pictureBox2.Location = new System.Drawing.Point(710, 46);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(172, 185);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 22;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
             // 
             // comboBox22
             // 
@@ -110,7 +131,6 @@
             this.comboBox22.Name = "comboBox22";
             this.comboBox22.Size = new System.Drawing.Size(206, 33);
             this.comboBox22.TabIndex = 21;
-            this.comboBox22.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged_1);
             // 
             // textBox33
             // 
@@ -139,11 +159,12 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(659, 30);
+            this.label11.Location = new System.Drawing.Point(541, 10);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(155, 25);
+            this.label11.Size = new System.Drawing.Size(187, 25);
             this.label11.TabIndex = 17;
-            this.label11.Text = "Enter Your Img";
+            this.label11.Text = "Enter Your Img >>";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label16
             // 
@@ -202,9 +223,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(686, 58);
+            this.button4.Location = new System.Drawing.Point(754, 5);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(126, 35);
+            this.button4.Size = new System.Drawing.Size(92, 35);
             this.button4.TabIndex = 10;
             this.button4.Text = "Brows..";
             this.button4.UseVisualStyleBackColor = true;
@@ -216,9 +237,9 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(110, 294);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(726, 38);
+            this.button1.Size = new System.Drawing.Size(369, 38);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Save Data";
+            this.button1.Text = "Show Database";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -231,6 +252,38 @@
             this.label9.Size = new System.Drawing.Size(727, 148);
             this.label9.TabIndex = 8;
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(664, 237);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(20, 25);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "-";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(664, 237);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(20, 25);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "-";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(664, 262);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(20, 25);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "-";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form
             // 
@@ -268,6 +321,10 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }
 

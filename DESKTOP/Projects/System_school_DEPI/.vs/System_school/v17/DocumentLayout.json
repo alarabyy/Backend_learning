@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\studentdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|solutionrelative:studentdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|d:\\my_code\\back_end\\desktop\\projects\\system_school_depi\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|d:\\my_code\\back_end\\desktop\\projects\\system_school_depi\\contextdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|solutionrelative:contextdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\graduated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|solutionrelative:graduated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|System_school.csproj|solutionrelative:students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|13_System_school.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B5BD3C1-583C-4501-8535-A31D2F6EE0F7}|13_System_school.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-11T20:46:20.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "contextdatabase.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\contextdatabase.cs",
+              "RelativeDocumentMoniker": "contextdatabase.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\contextdatabase.cs",
+              "RelativeToolTip": "contextdatabase.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T20:39:17.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Studentdatabase.CS",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Studentdatabase.CS",
+              "RelativeDocumentMoniker": "Studentdatabase.CS",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Studentdatabase.CS",
+              "RelativeToolTip": "Studentdatabase.CS",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T17:45:40.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAArwHAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T17:06:06.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T17:06:04.247Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Graduated.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Graduated.cs",
+              "RelativeDocumentMoniker": "Graduated.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Graduated.cs",
+              "RelativeToolTip": "Graduated.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T23:51:51.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Students.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Students.cs",
+              "RelativeDocumentMoniker": "Students.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Students.cs",
+              "RelativeToolTip": "Students.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA0wCEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T23:32:08.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_school_DEPI\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAqwAMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T22:43:44.295Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

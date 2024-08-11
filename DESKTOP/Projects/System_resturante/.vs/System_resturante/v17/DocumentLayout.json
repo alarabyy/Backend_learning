@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|d:\\my_code\\back_end\\desktop\\projects\\system_resturante\\reaturante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|solutionrelative:reaturante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\waiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|solutionrelative:waiter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|solutionrelative:fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A31C141-D579-454F-B05D-8BB8C01A4677}|System_resturante.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "task.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\task.cs",
+              "RelativeDocumentMoniker": "task.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\task.cs",
+              "RelativeToolTip": "task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T17:36:54.468Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reaturante.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\Reaturante.cs",
+              "RelativeDocumentMoniker": "Reaturante.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\Reaturante.cs",
+              "RelativeToolTip": "Reaturante.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvyoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T21:45:33.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Waiter.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\Waiter.cs",
+              "RelativeDocumentMoniker": "Waiter.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\Waiter.cs",
+              "RelativeToolTip": "Waiter.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwBsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T21:44:03.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAswE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T21:39:44.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\FoodItem.cs",
+              "RelativeDocumentMoniker": "FoodItem.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\FoodItem.cs",
+              "RelativeToolTip": "FoodItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T21:19:30.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Projects\\System_resturante\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T17:36:19.506Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

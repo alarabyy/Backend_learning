@@ -1,0 +1,15 @@
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\obj\Debug\System_school.csproj.AssemblyReference.cache
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\obj\Debug\_13_System_school.Properties.Resources.resources
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\obj\Debug\System_school.csproj.GenerateResource.cache
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\obj\Debug\System_school.csproj.CoreCompileInputs.cache
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\obj\Debug\13_System_school.exe
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\obj\Debug\13_System_school.pdb
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\bin\Debug\13_System_school.exe.config
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\bin\Debug\13_System_school.exe
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\bin\Debug\13_System_school.pdb
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\obj\Debug\System_school.Form.resources
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\bin\Debug\EntityFramework.dll
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\bin\Debug\EntityFramework.SqlServer.dll
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\bin\Debug\EntityFramework.xml
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\bin\Debug\EntityFramework.SqlServer.xml
+D:\My_code\back_end\DESKTOP\Projects\System_school_DEPI\obj\Debug\System_s.B4BB060D.Up2Date
