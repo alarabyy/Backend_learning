@@ -1,0 +1,14 @@
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\bin\Debug\net8.0\Collections.exe
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\bin\Debug\net8.0\Collections.deps.json
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\bin\Debug\net8.0\Collections.runtimeconfig.json
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\bin\Debug\net8.0\Collections.dll
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\bin\Debug\net8.0\Collections.pdb
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\obj\Debug\net8.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\obj\Debug\net8.0\Collections.AssemblyInfoInputs.cache
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\obj\Debug\net8.0\Collections.AssemblyInfo.cs
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\obj\Debug\net8.0\Collections.csproj.CoreCompileInputs.cache
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\obj\Debug\net8.0\Collections.dll
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\obj\Debug\net8.0\refint\Collections.dll
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\obj\Debug\net8.0\Collections.pdb
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\obj\Debug\net8.0\Collections.genruntimeconfig.cache
+D:\My_code\back_end\DESKTOP\Data_Strucure_Learning\Stack_and_Dictionary\Collections\obj\Debug\net8.0\ref\Collections.dll

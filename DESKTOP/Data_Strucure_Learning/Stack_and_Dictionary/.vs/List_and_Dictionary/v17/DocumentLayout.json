@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My_code\\back_end\\DESKTOP\\Data_Strucure_Learning\\Stack_and_Dictionary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B908D8AC-D833-4DEB-BFF9-92548E7480A3}|Collections\\Collections.csproj|d:\\my_code\\back_end\\desktop\\data_strucure_learning\\stack_and_dictionary\\collections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B908D8AC-D833-4DEB-BFF9-92548E7480A3}|Collections\\Collections.csproj|solutionrelative:collections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My_code\\back_end\\DESKTOP\\Data_Strucure_Learning\\Stack_and_Dictionary\\Collections\\Program.cs",
+              "RelativeDocumentMoniker": "Collections\\Program.cs",
+              "ToolTip": "D:\\My_code\\back_end\\DESKTOP\\Data_Strucure_Learning\\Stack_and_Dictionary\\Collections\\Program.cs",
+              "RelativeToolTip": "Collections\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCAAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T23:16:43.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+resources:
+
+
+
+Courses:
+
+Udemy [https://www.udemy.com/course/database-engines-crash-course/?couponCode=ST10MT8624]
+
+YouTube [https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi]
+
+MySQL [https://planetscale.com/learn/courses/mysql-for-developers/schema/introduction-to-schema]
+
+
+
+Book: [Designing Data-Intensive Applications]
+
+
+
+practice:
+
+Leetcode study plan - SQL 50 [https://leetcode.com/studyplan/top-sql-50/]
+
+LinkedIn [https://www.linkedin.com/in/a-maher/]
