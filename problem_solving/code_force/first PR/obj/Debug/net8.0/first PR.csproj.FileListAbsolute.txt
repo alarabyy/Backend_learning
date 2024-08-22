@@ -1,0 +1,14 @@
+D:\My_code\back_end\problem_solving\code_force\first PR\bin\Debug\net8.0\first PR.exe
+D:\My_code\back_end\problem_solving\code_force\first PR\bin\Debug\net8.0\first PR.deps.json
+D:\My_code\back_end\problem_solving\code_force\first PR\bin\Debug\net8.0\first PR.runtimeconfig.json
+D:\My_code\back_end\problem_solving\code_force\first PR\bin\Debug\net8.0\first PR.dll
+D:\My_code\back_end\problem_solving\code_force\first PR\bin\Debug\net8.0\first PR.pdb
+D:\My_code\back_end\problem_solving\code_force\first PR\obj\Debug\net8.0\first PR.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_code\back_end\problem_solving\code_force\first PR\obj\Debug\net8.0\first PR.AssemblyInfoInputs.cache
+D:\My_code\back_end\problem_solving\code_force\first PR\obj\Debug\net8.0\first PR.AssemblyInfo.cs
+D:\My_code\back_end\problem_solving\code_force\first PR\obj\Debug\net8.0\first PR.csproj.CoreCompileInputs.cache
+D:\My_code\back_end\problem_solving\code_force\first PR\obj\Debug\net8.0\first PR.dll
+D:\My_code\back_end\problem_solving\code_force\first PR\obj\Debug\net8.0\refint\first PR.dll
+D:\My_code\back_end\problem_solving\code_force\first PR\obj\Debug\net8.0\first PR.pdb
+D:\My_code\back_end\problem_solving\code_force\first PR\obj\Debug\net8.0\first PR.genruntimeconfig.cache
+D:\My_code\back_end\problem_solving\code_force\first PR\obj\Debug\net8.0\ref\first PR.dll

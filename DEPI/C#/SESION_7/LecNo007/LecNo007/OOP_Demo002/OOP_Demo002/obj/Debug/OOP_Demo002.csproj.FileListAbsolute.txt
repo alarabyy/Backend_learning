@@ -1,0 +1,11 @@
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\bin\Debug\OOP_Demo002.exe.config
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\bin\Debug\OOP_Demo002.exe
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\bin\Debug\OOP_Demo002.pdb
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\obj\Debug\OOP_Demo002.csproj.AssemblyReference.cache
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\obj\Debug\OOP_Demo002.csproj.SuggestedBindingRedirects.cache
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\obj\Debug\OOP_Demo002.Properties.Resources.resources
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\obj\Debug\OOP_Demo002.csproj.GenerateResource.cache
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\obj\Debug\OOP_Demo002.csproj.CoreCompileInputs.cache
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\obj\Debug\OOP_Demo002.exe
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\obj\Debug\OOP_Demo002.pdb
+K:\Abdullah\Dot NET\C#\LecNo007\OOP_Demo002\OOP_Demo002\obj\Debug\OOP_Demo002.Form1.resources

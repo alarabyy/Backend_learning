@@ -1,0 +1,14 @@
+D:\My_code\back_end\problem_solving\code_force\num2\bin\Debug\net8.0\num2.exe
+D:\My_code\back_end\problem_solving\code_force\num2\bin\Debug\net8.0\num2.deps.json
+D:\My_code\back_end\problem_solving\code_force\num2\bin\Debug\net8.0\num2.runtimeconfig.json
+D:\My_code\back_end\problem_solving\code_force\num2\bin\Debug\net8.0\num2.dll
+D:\My_code\back_end\problem_solving\code_force\num2\bin\Debug\net8.0\num2.pdb
+D:\My_code\back_end\problem_solving\code_force\num2\obj\Debug\net8.0\num2.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_code\back_end\problem_solving\code_force\num2\obj\Debug\net8.0\num2.AssemblyInfoInputs.cache
+D:\My_code\back_end\problem_solving\code_force\num2\obj\Debug\net8.0\num2.AssemblyInfo.cs
+D:\My_code\back_end\problem_solving\code_force\num2\obj\Debug\net8.0\num2.csproj.CoreCompileInputs.cache
+D:\My_code\back_end\problem_solving\code_force\num2\obj\Debug\net8.0\num2.dll
+D:\My_code\back_end\problem_solving\code_force\num2\obj\Debug\net8.0\refint\num2.dll
+D:\My_code\back_end\problem_solving\code_force\num2\obj\Debug\net8.0\num2.pdb
+D:\My_code\back_end\problem_solving\code_force\num2\obj\Debug\net8.0\num2.genruntimeconfig.cache
+D:\My_code\back_end\problem_solving\code_force\num2\obj\Debug\net8.0\ref\num2.dll

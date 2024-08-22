@@ -1,0 +1,38 @@
+OOP Main Concepts:
+------------------
+Inheritance
+Encapsulation
+Polymorphism
+Abstraction
+
+Class Types:
+--------------
+Instance Class - Must Create Instace=Object to use class
+Partial Class - Partial Method (Class Divided into many Files)
+static Class  - Class for Direct use 
+sealed class - Sealed Method
+Abstract class
+
+
+Partial Class:
+-------------- 
+Class divided into more than one file
+use Partial Keyword
+CRL will Combine all Files into ONE Class
+	Partial Method:
+	 -part of method
+	 -don't have Access Modifier = Private
+	 -Must be void 
+	 -if does not have Implementation CLR will Ignore it
+
+Sealed:
+----------
+class - can not be inherits from them
+method - can not override
+
+Sharing Properties & Methods:
+------------------------------Use Static Keyword
+NOTE: All static members MUST be static
+Static Feild /Property
+static Method
+static Class
