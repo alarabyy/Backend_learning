@@ -1,4 +1,4 @@
-namespace Ports_and_ships.Models
+namespace Port.Models
 {
     public class ErrorViewModel
     {

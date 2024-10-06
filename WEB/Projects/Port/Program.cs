@@ -1,7 +1,4 @@
-using Microsoft.EntityFrameworkCore;
-using Ports_and_ships.Models;
-
-namespace Ports_and_ships
+namespace Port
 {
     public class Program
     {
@@ -11,8 +8,7 @@ namespace Ports_and_ships
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<Datacontext>
-    (op => op.UseSqlServer(builder.Configuration.GetConnectionString("ShipsDB")));
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Ports_and_ships.Models;
+using Port.Models;
 
-namespace Ports_and_ships.Controllers
+namespace Port.Controllers
 {
     public class HomeController : Controller
     {
