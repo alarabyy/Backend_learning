@@ -9,43 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ports_and_ships
 build_property.RootNamespace = Ports_and_ships
-build_property.ProjectDir = D:\My_code\back_end\WEB\Projects\Ports and ships\
+build_property.ProjectDir = D:\Githup_upload\Backend_learning\WEB\Projects\Port\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\My_code\back_end\WEB\Projects\Ports and ships
+build_property.MSBuildProjectDirectory = D:\Githup_upload\Backend_learning\WEB\Projects\Port
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/My_code/back_end/WEB/Projects/Ports and ships/Views/CreateProduct/CreateProducte.cshtml]
+[D:/Githup_upload/Backend_learning/WEB/Projects/Port/Views/CreateProduct/CreateProducte.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlUHJvZHVjdFxDcmVhdGVQcm9kdWN0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My_code/back_end/WEB/Projects/Ports and ships/Views/Home/Index.cshtml]
+[D:/Githup_upload/Backend_learning/WEB/Projects/Port/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My_code/back_end/WEB/Projects/Ports and ships/Views/Home/Privacy.cshtml]
+[D:/Githup_upload/Backend_learning/WEB/Projects/Port/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My_code/back_end/WEB/Projects/Ports and ships/Views/Shared/Error.cshtml]
+[D:/Githup_upload/Backend_learning/WEB/Projects/Port/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My_code/back_end/WEB/Projects/Ports and ships/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Githup_upload/Backend_learning/WEB/Projects/Port/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My_code/back_end/WEB/Projects/Ports and ships/Views/_ViewImports.cshtml]
+[D:/Githup_upload/Backend_learning/WEB/Projects/Port/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My_code/back_end/WEB/Projects/Ports and ships/Views/_ViewStart.cshtml]
+[D:/Githup_upload/Backend_learning/WEB/Projects/Port/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My_code/back_end/WEB/Projects/Ports and ships/Views/Shared/_Layout.cshtml]
+[D:/Githup_upload/Backend_learning/WEB/Projects/Port/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-pytj5jk5ly
+build_metadata.AdditionalFiles.CssScope = b-zerwc9i3lu
