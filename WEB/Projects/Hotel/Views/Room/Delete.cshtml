@@ -1,0 +1,55 @@
+﻿@model Hotel.Models.Rooms
+
+@{
+    ViewData["Title"] = "Delete Room";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center text-danger mb-4">Delete Room</h2>
+
+    <div class="card shadow-sm border-danger">
+        <div class="card-body">
+            <h4 class="text-danger mb-4">Are you sure you want to delete this room?</h4>
+
+            <dl class="row mb-4">
+                <dt class="col-sm-3 fw-bold">Room Number</dt>
+                <dd class="col-sm-9">@Model.Roomnumber</dd>
+
+                <dt class="col-sm-3 fw-bold">Room Name</dt>
+                <dd class="col-sm-9">@Model.Roomname</dd>
+
+                <dt class="col-sm-3 fw-bold">Room Description</dt>
+                <dd class="col-sm-9">@Model.Roomdescription</dd>
+
+                <dt class="col-sm-3 fw-bold">Room Type</dt>
+                <dd class="col-sm-9">@Model.Roomtype</dd>
+            </dl>
+
+            <form asp-action="Delete" method="post">
+                <input type="hidden" asp-for="Roomid" />
+
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-danger me-2">Delete</button>
+                    <a asp-action="RoomDetails" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        color:aqua;
+        border-radius: 0.5rem;
+    }
+
+    .card-body {
+        color:brown;
+        background-color:aqua;
+        padding: 2rem;
+    }
+
+    .btn {
+        border-radius: 0.25rem;
+    }
+</style>

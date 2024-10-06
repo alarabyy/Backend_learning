@@ -1,0 +1,58 @@
+﻿@model Hotel.Models.Rooms
+
+@{
+    ViewData["Title"] = "Edit Room";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Edit Room</h2>
+
+    <div class="card shadow-lg p-4" style="border-radius: 15px; background: linear-gradient(135deg, #e3f2fd 30%, #bbdefb);">
+        <div class="card-body">
+            <form asp-action="Edit" method="post">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <!-- Hidden field to store Room ID -->
+                <input type="hidden" asp-for="Roomid" />
+
+                <!-- Room Number Input -->
+                <div class="form-group mb-3">
+                    <label asp-for="Roomnumber" class="form-label fw-bold"></label>
+                    <input asp-for="Roomnumber" class="form-control form-control-lg" style="border-radius: 10px; border: 2px solid #64b5f6;" />
+                    <span asp-validation-for="Roomnumber" class="text-danger"></span>
+                </div>
+
+                <!-- Room Name Input -->
+                <div class="form-group mb-3">
+                    <label asp-for="Roomname" class="form-label fw-bold"></label>
+                    <input asp-for="Roomname" class="form-control form-control-lg" style="border-radius: 10px; border: 2px solid #64b5f6;" />
+                    <span asp-validation-for="Roomname" class="text-danger"></span>
+                </div>
+
+                <!-- Room Description Input -->
+                <div class="form-group mb-3">
+                    <label asp-for="Roomdescription" class="form-label fw-bold"></label>
+                    <input asp-for="Roomdescription" class="form-control form-control-lg" style="border-radius: 10px; border: 2px solid #64b5f6;" />
+                    <span asp-validation-for="Roomdescription" class="text-danger"></span>
+                </div>
+
+                <!-- Room Type Input -->
+                <div class="form-group mb-3">
+                    <label asp-for="Roomtype" class="form-label fw-bold"></label>
+                    <input asp-for="Roomtype" class="form-control form-control-lg" style="border-radius: 10px; border: 2px solid #64b5f6;" />
+                    <span asp-validation-for="Roomtype" class="text-danger"></span>
+                </div>
+
+                <!-- Save and Cancel Buttons -->
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-success btn-lg" style="border-radius: 10px; padding: 10px 20px;">
+                        <i class="fas fa-save"></i> Save Changes
+                    </button>
+                    <a asp-action="RoomDetails" class="btn btn-secondary btn-lg" style="border-radius: 10px; padding: 10px 20px;">
+                        <i class="fas fa-times"></i> Cancel
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

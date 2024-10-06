@@ -1,0 +1,47 @@
+﻿@model Hotel.Models.Rooms
+
+@{
+    ViewData["Title"] = "ChooseRoom";
+}
+
+<h1 class="text-center mb-5">Choose Room</h1>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-body">
+                    <h4 class="text-center mb-4">Room Details</h4>
+                    <hr />
+                    <form asp-action="ChooseRoom" method="post" class="needs-validation" novalidate>
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Roomnumber" class="form-label"></label>
+                            <input asp-for="Roomnumber" class="form-control" placeholder="Enter Room Number" />
+                            <span asp-validation-for="Roomnumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Roomname" class="form-label"></label>
+                            <input asp-for="Roomname" class="form-control" placeholder="Enter Room Name" />
+                            <span asp-validation-for="Roomname" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Roomdescription" class="form-label"></label>
+                            <input asp-for="Roomdescription" class="form-control" placeholder="Enter Room Description" />
+                            <span asp-validation-for="Roomdescription" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label asp-for="Roomtype" class="form-label"></label>
+                            <input asp-for="Roomtype" class="form-control" placeholder="Enter Room Type" />
+                            <span asp-validation-for="Roomtype" class="text-danger"></span>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <input type="submit" value="Create" class="btn btn-primary btn-block" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
