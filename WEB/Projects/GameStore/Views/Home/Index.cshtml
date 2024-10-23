@@ -1,0 +1,56 @@
+﻿@using GameStore.Sitting
+@model IEnumerable<Game>;
+
+@{
+    ViewData["Title"] = "Games";
+}
+@*///////////////////////////////////////////////////////////////////////////*@
+@*to go  to  create game*@
+<a class=" btn btn-primary border-dark text-light mb-2" style="border-radius:15px"  asp-controller="Games" asp-action="Create">
+    <i class="bi bi-plus-circle-dotted"></i>
+    Add Game
+</a>
+@*///////////////////////////////////////////////////////////////////////////*@
+@*to display  all games*@
+@if(!Model.Any())
+{
+    <div class="container">
+        <div class="alert alert-warning mt-5" role="alert">
+            <h4>No games!</h4>
+            <p>No games were added yet.</p>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-3 col-md-4 bo" >
+                <div class="card text-white bg-info mb-2 " style="max-width: 20rem; height:400px">
+                    <div class="card-body" style=" background-image:url(@(@$"{FileSitting.ImagePath}/{item.Cover}")); background-size:cover; background-position:center;height:250px ;">
+
+                    </div>
+                    <div class="card-footer text-muted d-flex align-items-center justify-content-between ">
+                        <h4 class="fw-bolder text-dark">@item.Name</h4>
+                        <div class="h-100">
+                            <span class="badge rounded-pill bg-primary text-">@item.category?.Name</span>
+                        </div>
+                        <div>
+                            @foreach(var gamedevice in item.devices)
+                            {
+                                <i class="@gamedevice.device.Icon"></i>
+                            }
+                        </div>
+                    </div>
+                    <h6 class=" text-xxl-center font-monospace text-dark m-4">@item.Description</h6>
+
+                </div>
+        </div>
+
+    }
+    </div>
+}
+
+@*///////////////////////////////////////////////////////////////////////////*@
+

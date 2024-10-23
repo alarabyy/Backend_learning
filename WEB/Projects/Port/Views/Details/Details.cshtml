@@ -1,0 +1,138 @@
+﻿@model Port.Models.Order
+
+@{
+    ViewData["Title"] = "Invoice";
+}
+
+<div class="invoice-container">
+    <div class="invoice-header">
+        <h2 class="invoice-title ">Sales Invoice</h2>
+        <p class="invoice-subtitle">Thank you for your purchase!</p>
+    </div>
+
+    <div class="invoice-details">
+        <div class="invoice-info">
+            <div>
+                <strong>Invoice Number:</strong> @Html.DisplayFor(model => model.OrderId)
+            </div>
+            <div>
+                <strong>Date:</strong> @Html.DisplayFor(model => model.OrderDate)
+            </div>
+            <div>
+                <strong>Time:</strong> @Html.DisplayFor(model => model.OrderTime)
+            </div>
+        </div>
+
+        <div class="customer-info">
+            <div>
+                <strong>Customer Name:</strong> @Html.DisplayFor(model => model.OrderName)
+            </div>
+            <div>
+                <strong>Description:</strong> @Html.DisplayFor(model => model.OrderDescription)
+            </div>
+        </div>
+    </div>
+
+    <table class="invoice-table table table-warning table-hover">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.OrderType)</td>
+                <td>@Html.DisplayFor(model => model.OrderQuantity)</td>
+                <td>@Html.DisplayFor(model => model.OrderPrice)</td>
+                <td>@(Model.OrderQuantity * Model.OrderPrice)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="invoice-footer">
+        <h4>Total Price: $@(Model.OrderQuantity * Model.OrderPrice)</h4>
+        <p class="thanks-message">We appreciate your business!</p>
+    </div>
+</div>
+
+<!-- Styles for Invoice Design -->
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color : bisque;
+      
+    }
+
+    .invoice-container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .invoice-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .invoice-title {
+        font-size: 2.5rem;
+        color: darkorange;
+    }
+
+    .invoice-subtitle {
+        font-size: 1.2rem;
+        color: #6c757d;
+    }
+
+    .invoice-details {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .invoice-info, .customer-info {
+        width: 48%;
+    }
+
+        .invoice-info div, .customer-info div {
+            margin-bottom: 10px;
+        }
+
+    .invoice-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 30px;
+    }
+
+        .invoice-table th, .invoice-table td {
+            border: 1px solid #dee2e6;
+            padding: 12px 15px;
+            text-align: center;
+        }
+
+        .invoice-table th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+
+    .invoice-footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        .invoice-footer h4 {
+            font-size: 1.5rem;
+            color: #343a40;
+        }
+
+    .thanks-message {
+        font-style: italic;
+        color: #6c757d;
+    }
+</style>

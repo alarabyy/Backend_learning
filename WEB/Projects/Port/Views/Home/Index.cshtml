@@ -2,7 +2,36 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div class="row align-items-center">
+    <hr class="alert-light shadow-lg bg-danger border-danger" />
+        <hr class="alert-light shadow-lg bg-danger border-danger" />
+
+        <div class="col-md-6 text-center text-md-start">
+            <br />
+            <br />
+            <h1 class="typed"></h1>
+            <a href="#">
+                <button class="btn btn-outline-warning mt-3">Let's Go</button>
+            </a>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="./img/shup.jpg" class="img-fluid" alt="Shipping Image" style="border-radius:35px 0px 35px 0px;" /> 
+        </div>
+    </div>
+    <hr class="alert-light shadow-lg bg-danger border-danger" />
+    <hr class="alert-light shadow-lg bg-danger border-danger" />
 </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    var typed = new Typed('.typed', {
+        strings: ['Welcome EVERY ONE in My Port shipment', ' Hello  my Expensive Family'],
+        typeSpeed: 60,
+        backSpeed: 10,
+        loop: true
+    });
+</script>

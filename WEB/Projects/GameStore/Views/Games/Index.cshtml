@@ -1,0 +1,70 @@
+﻿@using GameStore.Sitting
+@model IEnumerable<Game>;
+
+
+@{
+    ViewData["Title"] = "GamesDetails";
+}
+@*///////////////////////////////////////////////////////////////////////////*@
+@*to go  to  create game*@
+<a class=" btn btn-primary border-dark text-light mb-2" style="border-radius:15px" asp-controller="Games" asp-action="Create">
+    <i class="bi bi-plus-circle-dotted"></i>
+    Add Game
+</a>
+@*///////////////////////////////////////////////////////////////////////////*@
+@if (!Model.Any())
+{
+    <div class="container">
+        <div class="alert alert-warning mt-5" role="alert">
+            <h4>No games!</h4>
+            <p>No games were added yet.</p>
+        </div>
+    </div>
+}
+else
+{
+    <div class="mt-5">
+        <table class="table table-bordered border-info table-hover font-monospace">
+            <thead>
+            </thead>
+            <tbody>
+                @foreach (var game in Model)
+                {
+                    <tr class="border-1 border-success" style="height: 100px;">
+                        <td>
+                            <div class="d-flex">
+                                <div class="pe-4">
+                                    <img    src="@($"{FileSitting.ImagePath}/{game.Cover}")"  alt="@game.Name" style="width:120px; "  />
+                                </div>
+                                <div class="d-flex flex-column justify-content-center">
+                                    <h4 class="text-dark">@game.Name</h4>
+                                    <h5>@game.category.Name</h5>
+                                    <div class="d-flex  ">
+                                        @foreach (var gamedevice in game.devices)
+                                        {
+                                            <i class="@gamedevice.device.Icon m-1"></i>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                   
+                        <td class="align-middle">
+                            <div class=" justify-content-end">
+                                <a href="#" class="btn btn-info rounded rounded-3 me-2">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </a>
+                                <a href="#" class="btn btn-danger rounded rounded-3">
+                                    <i class="bi bi-trash3"></i>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div style="height: 50px;"></div> <footer>
+        </footer>
+    </div>
+
+}

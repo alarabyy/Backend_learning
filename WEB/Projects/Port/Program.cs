@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Port.Models;
+using Microsoft.AspNetCore.Identity;
+
 namespace Port
 {
     public class Program
@@ -5,10 +10,21 @@ namespace Port
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            var connection = builder.Configuration.GetConnectionString("DefaultConnection");
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            /*//////////////////////////////////////////////////////////////////////////*/
+            /*layer inject database*/
+            builder.Services.AddDbContext<PortDContext>(options =>
+             options.UseSqlServer(connection));
 
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>();
+            builder.Services.AddRazorPages();
+            /*//////////////////////////////////////////////////////////////////////////*/
+            /*layer authentication*/
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+             options.UseSqlServer(connection));
+            /*//////////////////////////////////////////////////////////////////////////*/
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -29,7 +45,7 @@ namespace Port
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
-
+            app.MapRazorPages();
             app.Run();
         }
     }

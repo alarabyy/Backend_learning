@@ -1,0 +1,51 @@
+﻿@model Port.Models.Client
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="container">
+    <div class="row">
+        @if (Model != null)
+        {
+
+
+            <div>
+				<img src="d:\my_code\back_end\web\projects\port\wwwroot\img\shup.jpg" />
+            </div>     
+            
+            <div>
+                <div class="col"><h1>ID:</h1></div>
+                <div class="col"><h1>@Model.ClientID</h1></div>
+            </div>
+            
+            <div>
+                <div class="col"><h1>Name:</h1></div>
+                <div class="col"><h1>@Model.ClientName</h1></div>
+            </div>
+            
+            <div>
+                <div class="col"><h1>Phone:</h1></div>
+                <div class="col"><h1>@Model.ClientPhone</h1></div>
+            </div>
+
+            <div>
+                <div class="col"><h1>Email:</h1></div>
+                <div class="col"><h1>@Model.ClientEmail</h1></div>
+            </div> 
+            
+            <div>
+                <div class="col"><h1>BirthDay:</h1></div>
+                <div class="col"><h1>@Model.Birthday</h1></div>
+            </div>
+
+        }
+        else   
+        {
+        <div class="col"><h1>No Client Data Available</h1></div>
+        }
+
+
+    </div>
+</div>
+
+

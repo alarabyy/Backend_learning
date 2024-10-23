@@ -1,0 +1,57 @@
+﻿@using GameStore.Sitting
+
+@model GameStore.ViewModel.CreateGameFromViewModel
+
+@{
+    ViewData["Title"] = "Games";
+}
+
+<h4>
+    <i class="bi bi-plus-circle-dotted"></i>
+    Add a New Game
+</h4>
+
+<form asp-controller="Games" asp-action="Create" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Name" class="form-label mt-4"></label>
+                <input type="text" class="form-control" asp-for="Name" placeholder="Enter Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="categoryid" class="form-label mt-4"></label>
+                <select class="form-select" asp-for="categoryid" asp-items="Model.categories">
+                    <option value="">Select Category</option>
+                </select>
+                <span asp-validation-for="categoryid" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SelectDevice" class="form-label mt-4"></label>
+                <select class="form-select" asp-for="SelectDevice" asp-items="Model.Devices"></select>
+                <span asp-validation-for="SelectDevice" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Description" class="form-label mt-4"></label>
+                <textarea asp-for="Description" class="form-control" placeholder="Enter a detailed description" rows="1" style="resize: none; border-radius: 10px;"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cover" class="form-label mt-4"></label>
+                <input type="file" class="form-control" asp-for="Cover" />
+                <small class="form-text text-muted">Only allow images (jpg, jpeg, png). Maximum 1MB.</small>
+                <span asp-validation-for="Cover" class="text-danger"></span>
+            </div>
+
+         </div>
+    </div>
+    <button type="submit" class="btn btn-outline-primary text-dark mt-4 col-5 m-auto" style="border-radius:15px;">Save</button>
+</form>
+
+@section scripts {
+    <partial name="_ValidationScriptsPartial"/>
+}

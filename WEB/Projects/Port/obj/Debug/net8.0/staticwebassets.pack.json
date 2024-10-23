@@ -9,8 +9,12 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\My_code\\back_end\\WEB\\Projects\\Port\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "D:\\My_code\\back_end\\WEB\\Projects\\Port\\wwwroot\\img\\shop_market_icon_264199 (2).ico",
+      "PackagePath": "staticwebassets\\img\\shop_market_icon_264199 (2).ico"
+    },
+    {
+      "Id": "D:\\My_code\\back_end\\WEB\\Projects\\Port\\wwwroot\\img\\shup.jpg",
+      "PackagePath": "staticwebassets\\img\\shup.jpg"
     },
     {
       "Id": "D:\\My_code\\back_end\\WEB\\Projects\\Port\\wwwroot\\js\\site.js",
@@ -243,6 +247,10 @@
     {
       "Id": "D:\\My_code\\back_end\\WEB\\Projects\\Port\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\My_code\\back_end\\WEB\\Projects\\Port\\wwwroot\\shup.jpg",
+      "PackagePath": "staticwebassets\\shup.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Port.Microsoft.AspNetCore.StaticWebAssets.props",

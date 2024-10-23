@@ -1,0 +1,76 @@
+﻿@model Port.Models.Order
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4 text-center">Create New Shipment</h1>
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <!-- Added enctype for file upload -->
+        <div class="row">
+        
+
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="OrderName" class="form-label">Order Name</label>
+                    <input asp-for="OrderName" class="form-control" placeholder="Enter Order Name" />
+                    <span asp-validation-for="OrderName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="OrderDescription" class="form-label">Order Description</label>
+                    <textarea asp-for="OrderDescription" class="form-control" rows="3" placeholder="Describe the order"></textarea>
+                    <span asp-validation-for="OrderDescription" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group mb-3">
+                    <label asp-for="OrderPrice" class="form-label">Order Price</label>
+                    <input asp-for="OrderPrice" class="form-control" placeholder="Enter Order Price" />
+                    <span asp-validation-for="OrderPrice" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group mb-3">
+                    <label asp-for="OrderQuantity" class="form-label">Order Quantity</label>
+                    <input asp-for="OrderQuantity" class="form-control" placeholder="Enter Quantity" />
+                    <span asp-validation-for="OrderQuantity" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group mb-3">
+                    <label asp-for="OrderDate" class="form-label">Order Date</label>
+                    <input asp-for="OrderDate" class="form-control" type="date" />
+                    <span asp-validation-for="OrderDate" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="OrderTime" class="form-label">Order Time</label>
+                    <input asp-for="OrderTime" class="form-control" type="time" />
+                    <span asp-validation-for="OrderTime" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="OrderType" class="form-label">Order Type</label>
+                    <input asp-for="OrderType" class="form-control" placeholder="Enter Order Type" />
+                    <span asp-validation-for="OrderType" class="text-danger"></span>
+                </div>
+            </div>
+
+          
+
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Create Shipment</button>
+        </div>
+    </form>
+</div>
