@@ -1,11 +1,15 @@
-﻿namespace GameStore.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GameStore.Models
 {
     public class GameDevice
     {
-        public int Gameid { get; set; }
-        public Game game { get; set; }
+        public int GameId { get; set; }
+        public Game Game { get; set; } = null!;
 
-        public int Deviceid { get; set; }
-        public Device device { get; set; }
+        public int DeviceId { get; set; }
+        public Device Device { get; set; } = null!;
     }
+
+ 
 }

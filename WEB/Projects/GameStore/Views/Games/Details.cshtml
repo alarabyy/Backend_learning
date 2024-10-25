@@ -1,0 +1,39 @@
+﻿@using GameStore.Sitting
+@model GameStore.Models.Game
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="container mt-5">
+    <div class="card game-card border-success rounded-4 overflow-hidden shadow-sm" style="background-color: #f9f9f9;">
+        <div class="row g-0">
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+                <div class="card-body p-5">
+                    <h1 class="card-title text-success fw-bolder">@Model.Name</h1>
+                    <span class="badge bg-info fs-5">@Model.category?.Name</span>
+                    <p class="card-text fs-5 mt-3">@Model.Description</p>
+                    <div class="d-flex flex-wrap mt-4">
+                        @foreach (var gamedevice in Model.GameDevices)
+                        {
+                            <i class="@gamedevice.Device.Icon m-2 text-bg-secondary rounded-circle p-2"></i>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="@($"{FileSitting.ImagePath}/{Model.Cover}")" alt="@Model.Name" class="img-fluid rounded-4 shadow-sm" style="height:100%; object-fit: cover;" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .game-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .game-card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+</style>

@@ -4,15 +4,13 @@
 @{
     ViewData["Title"] = "Games";
 }
-@*///////////////////////////////////////////////////////////////////////////*@
-@*to go  to  create game*@
-<a class=" btn btn-primary border-dark text-light mb-2" style="border-radius:15px"  asp-controller="Games" asp-action="Create">
+
+<a class="btn btn-primary border-dark text-light mb-2" style="border-radius: 15px; padding: 10px 20px;" asp-controller="Games" asp-action="Create">
     <i class="bi bi-plus-circle-dotted"></i>
     Add Game
 </a>
-@*///////////////////////////////////////////////////////////////////////////*@
-@*to display  all games*@
-@if(!Model.Any())
+
+@if (!Model.Any())
 {
     <div class="container">
         <div class="alert alert-warning mt-5" role="alert">
@@ -24,33 +22,40 @@
 else
 {
     <div class="row">
-    @foreach (var item in Model)
-    {
-        <div class="col-lg-3 col-md-4 bo" >
-                <div class="card text-white bg-info mb-2 " style="max-width: 20rem; height:400px">
-                    <div class="card-body" style=" background-image:url(@(@$"{FileSitting.ImagePath}/{item.Cover}")); background-size:cover; background-position:center;height:250px ;">
-
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-3 col-md-4 mb-4">
+                <a class="card game-card text-white bg-info text-decoration-none shadow-sm hover-shadow" style="max-width: 20rem; height: 420px; border-radius: 10px; transition: all 0.3s;" asp-controller="Games" asp-action="Details" asp-route-id="@item.Id">
+                    <div class="card-body p-0" style="background-image: url(@(@$"{FileSitting.ImagePath}/{item.Cover}")); background-size: cover; background-position: center; height: 250px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
                     </div>
-                    <div class="card-footer text-muted d-flex align-items-center justify-content-between ">
-                        <h4 class="fw-bolder text-dark">@item.Name</h4>
-                        <div class="h-100">
-                            <span class="badge rounded-pill bg-primary text-">@item.category?.Name</span>
-                        </div>
+                    <div class="card-footer text-muted d-flex align-items-center justify-content-between p-2" style="background-color: rgba(255, 255, 255, 0.85);">
+                        <h4 class="fw-bolder text-dark mb-0">@item.Name</h4>
+                        <span class="badge bg-primary rounded-pill">@item.category?.Name</span>
                         <div>
-                            @foreach(var gamedevice in item.devices)
+                            @foreach (var gamedevice in item.GameDevices)
                             {
-                                <i class="@gamedevice.device.Icon"></i>
+                                <i class="@gamedevice.Device.Icon"></i>
                             }
                         </div>
                     </div>
-                    <h6 class=" text-xxl-center font-monospace text-dark m-4">@item.Description</h6>
-
-                </div>
-        </div>
-
-    }
+                    <p class="text-dark text-center font-monospace m-3">@item.Description</p>
+                </a>
+            </div>
+        }
     </div>
 }
 
-@*///////////////////////////////////////////////////////////////////////////*@
+<style>
+    .hover-shadow:hover {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
 
+    .game-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .game-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+</style>

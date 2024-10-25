@@ -5,6 +5,10 @@ namespace GameStore.Data
 {
     public class ApplicationDbContext : DbContext
     {
+        public ApplicationDbContext()
+        {
+        }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
@@ -37,7 +41,7 @@ namespace GameStore.Data
          });
             
                  modelBuilder.Entity<GameDevice>()
-                     .HasKey(e => new { e.Deviceid, e.Gameid });
+                     .HasKey(e => new { e.DeviceId, e.GameId });
                  base.OnModelCreating(modelBuilder);
          }
     }       

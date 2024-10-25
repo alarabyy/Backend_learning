@@ -4,7 +4,6 @@ namespace GameStore.Models
 {
     public class Game
     {
-
         [Key]
         public int Id { get; set; }
         [MaxLength(250)]
@@ -15,9 +14,6 @@ namespace GameStore.Models
         public string Cover { get; set; }
         public int categoryid { get; set; }
         public Category category { get; set; } = default!;
-        public ICollection<GameDevice> devices { get; set; } = new List<GameDevice>();
-
-
-
+        public ICollection<GameDevice> GameDevices { get; set; } = new List<GameDevice>();
     }
 }
