@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Models"
+    "\\Models",
+    "\\Views",
+    "\\Views\\Home",
+    "\\Views\\Regester",
+    "\\Views\\Room"
   ],
   "SelectedNode": "\\Hotel.sln",
   "PreviewInSolutionExplorer": false

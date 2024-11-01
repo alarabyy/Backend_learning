@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="container">
+    <div class="content">
+        <img src="https://cdn0.iconfinder.com/data/icons/interface-2-11/200/Fatal-error-3-512.png" alt="Man watering a plant" width="250">
+        <h1>OOh not found Shipment</h1>
+        <p>Please Create A New Shipment.</p>
+        <a class="btn" asp-controller="Create" asp-action="Create">Creat Shipment</a>
+    </div>
+</div>
+
+
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f5f5f5;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    img {
+        max-width: 50%;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: #666;
+    }
+
+    .btn {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+</style>
+
+
