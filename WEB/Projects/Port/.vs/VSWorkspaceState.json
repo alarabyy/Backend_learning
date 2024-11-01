@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Models"
+    "\\Models",
+    "\\wwwroot",
+    "\\wwwroot\\css"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\Port.sln",
   "PreviewInSolutionExplorer": false
 }

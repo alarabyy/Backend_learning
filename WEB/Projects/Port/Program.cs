@@ -15,15 +15,12 @@ namespace Port
             builder.Services.AddControllersWithViews();
             /*//////////////////////////////////////////////////////////////////////////*/
             /*layer inject database*/
-            builder.Services.AddDbContext<PortDContext>(options =>
-             options.UseSqlServer(connection));
-
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>();
-            builder.Services.AddRazorPages();
-            /*//////////////////////////////////////////////////////////////////////////*/
-            /*layer authentication*/
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
              options.UseSqlServer(connection));
+
+            /*//////////////////////////////////////////////////////////////////////////*/
+            /*layer authentication*/
+
             /*//////////////////////////////////////////////////////////////////////////*/
             var app = builder.Build();
 
@@ -45,7 +42,7 @@ namespace Port
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
-            app.MapRazorPages();
+          
             app.Run();
         }
     }

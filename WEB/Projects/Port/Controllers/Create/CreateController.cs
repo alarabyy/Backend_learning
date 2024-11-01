@@ -6,9 +6,9 @@ namespace Port.Controllers
 {
     public class CreateController : Controller
     {
-        private readonly PortDContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public CreateController(PortDContext context)
+        public CreateController(ApplicationDbContext context)
         {
             _context = context;
         }
@@ -30,5 +30,7 @@ namespace Port.Controllers
             }
             return View(order);
         }
+        ///////////////////////////////////////////////////////////////////////////
+
     }
 }

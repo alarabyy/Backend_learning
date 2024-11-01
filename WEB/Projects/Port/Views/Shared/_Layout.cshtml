@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Port</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Port.styles.css" asp-append-version="true" />
-    <link rel="icon" type="image/x-icon" href="./img/shop_market_icon_264199 (2).ico">
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="/Port.styles.css" asp-append-version="true" />
+    <link rel="icon" href="/img/shop_market_icon_264199 (2).ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <body>
@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
 
-                <img src="http://localhost:5231/img/shup.jpg" alt="Port Logo" width="80" height="50" class="d-inline-block align-middle border-secondary" style="border-radius:5px;">
+                <img src="https://localhost:50725/img/shup.jpg" alt="Port Logo" width="80" height="50" class="d-inline-block align-middle border-secondary" style="border-radius:5px;">
 
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -37,12 +37,21 @@
                             <a class="nav-link  btn-info btn-close-white m-2 border-bottom alert-light align-content-lg-stretch align-content-center" style="border-radius: 10px;" asp-area="" asp-controller="Details" asp-action="Details">Your shipment</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link  btn-info btn-close-white m-2 border-bottom alert-light align-content-lg-stretch align-content-center" style="border-radius: 10px;" asp-area="" asp-controller="AllData" asp-action="AllData">All shipment</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link  btn-info btn-close-white m-2 border-bottom alert-light align-content-lg-stretch align-content-center" style="border-radius: 10px;" asp-area="" asp-controller="Docs" asp-action="Docs">Your DOCS</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link  btn btn-outline-warning border-3  m-2 border-bottom " style="border-radius: 10px;" asp-area="" asp-controller="Login" asp-action="Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  btn btn-outline-warning border-3 m-2 border-bottom " style="border-radius: 10px;" asp-area="" asp-controller="Signin" asp-action="Signin">Signin</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
-            <partial name="_LoginPartial" />
 
         </nav>
     </header>
@@ -51,11 +60,9 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted animate__animated animate__fadeInUp">
-        <div class="container">
-            &copy; 2024 - Port - Alaraby
-        </div>
+    <hr />
+    <footer class=" text-center ">
+        <h5>&copy; 2024 - Port - Alaraby</h5>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

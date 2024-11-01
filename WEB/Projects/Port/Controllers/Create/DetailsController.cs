@@ -4,9 +4,9 @@ using Port.Models;
 
 public class DetailsController : Controller
 {
-    private readonly PortDContext _context;
+    private readonly ApplicationDbContext _context;
 
-    public DetailsController(PortDContext context)
+    public DetailsController(ApplicationDbContext context)
     {
         _context = context;
     }
@@ -16,16 +16,21 @@ public class DetailsController : Controller
     {
         if (id == null)
         {
-            return View("NotFound");
+            return View("Erorr");
         }
-
-        var orderDetail = _context.Orders.Find(id);
-
-        if (orderDetail == null)
+        else
         {
-            return View("NotFound");
+            Order order = _context.Orders.FirstOrDefault(e => e.OrderId == id);
+            return View("Details", order);
+
         }
 
-        return View(orderDetail);
+        //  var orderDetail = _context.Orders.Find();
+
+        //if (orderDetail == null)
+        //{
+        //    return View("NotFound");
+        //}
+
     }
 }
