@@ -1,0 +1,62 @@
+﻿<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+
+            <img src="https://localhost:50725/img/shup.jpg" alt="Port Logo" width="80" height="50" class="d-inline-block align-middle border-secondary" style="border-radius:5px;">
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-item btn btn-outline-warning m-2" data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+
+                    @if (User.Identity.IsAuthenticated == true)
+                    {
+
+
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-secondary m-2" data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="Profile" asp-action="Profile" asp-route-id="1">Your Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-secondary m-2" data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="Create" asp-action="Create">Create shipment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-secondary m-2" data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="AllData" asp-action="AllData">All shipment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-secondary m-2" data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="AllProfiles" asp-action="AllProfiles">AllProfiles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-secondary m-2" data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="Docs" asp-action="Docs">Your DOCS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-warning m-2" data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="Register" asp-action="SignOut">SignOut</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-warning m-2 text-dark" data-mdb-ripple-init data-mdb-ripple-color="dark">Welcome : @User.Identity.Name</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-warning m-2 " data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="Role" asp-action="SaveRole">AddRole</a>
+                        </li>
+
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-warning m-2" data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="Register" asp-action="Register">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item btn btn-outline-warning m-2" data-mdb-ripple-init data-mdb-ripple-color="dark" asp-area="" asp-controller="Register" asp-action="Login">Login</a>
+                        </li>
+
+                    }
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+</header>

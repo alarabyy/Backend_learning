@@ -2,35 +2,32 @@
 using Microsoft.EntityFrameworkCore;
 using Port.Models;
 
-public class DetailsController : Controller
+namespace Port.Controllers
 {
-    private readonly ApplicationDbContext _context;
-
-    public DetailsController(ApplicationDbContext context)
+    public class DetailsController : Controller
     {
-        _context = context;
-    }
+        private readonly ApplicationDbContext _context;
 
-    [HttpGet]
-    public IActionResult Details(int? id)
-    {
-        if (id == null)
+        public DetailsController(ApplicationDbContext context)
         {
-            return View("Erorr");
-        }
-        else
-        {
-            Order order = _context.Orders.FirstOrDefault(e => e.OrderId == id);
-            return View("Details", order);
-
+            _context = context;
         }
 
-        //  var orderDetail = _context.Orders.Find();
+        public IActionResult Details(int? id)
+        {
+            var order = _context.Orders.FirstOrDefault(e => e.OrderId == id);
 
-        //if (orderDetail == null)
-        //{
-        //    return View("NotFound");
-        //}
+            if (!ModelState.IsValid)
+            {
+                return View("Error"); // This returns the Error.cshtml view
+            }
 
+            return View(order);
+        }
+
+        public IActionResult Error() 
+        { 
+          return View("Error");
+        }
     }
 }

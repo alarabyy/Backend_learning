@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
+    "\\Serveces",
     "\\Views",
     "\\Views\\Games"
   ],

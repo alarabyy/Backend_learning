@@ -1,52 +1,80 @@
-﻿@model Port.Models.Client
+﻿@model Port.ViewModel.RegisterUserViewModel
+
 @{
-    ViewData["Title"] = "Profile";
-
+    ViewData["Title"] = "Your Profile";
 }
-
-<div class="container">
-    <div class="row">
-        @if (Model != null)
-        {
-
-
-            <div>
-				<img src="d:\my_code\back_end\web\projects\port\wwwroot\img\shup.jpg" />
-            </div>     
-            
-            <div>
-                <div class="col"><h1>ID:</h1></div>
-                <div class="col"><h1>@Model.ClientID</h1></div>
-            </div>
-            
-            <div>
-                <div class="col"><h1>Name:</h1></div>
-                <div class="col"><h1>@Model.ClientName</h1></div>
-            </div>
-            
-            <div>
-                <div class="col"><h1>Phone:</h1></div>
-                <div class="col"><h1>@Model.ClientPhone</h1></div>
-            </div>
-
-            <div>
-                <div class="col"><h1>Email:</h1></div>
-                <div class="col"><h1>@Model.ClientEmail</h1></div>
-            </div> 
-            
-            <div>
-                <div class="col"><h1>BirthDay:</h1></div>
-                <div class="col"><h1>@Model.Birthday</h1></div>
-            </div>
-
-        }
-        else   
-        {
-        <div class="col"><h1>No Client Data Available</h1></div>
+    <style>
+        body {
+            background-color: #f5f5f5;   
+ /* Light gray background */
+            font-family: 'Open Sans', sans-serif; /* Modern, clean font */
         }
 
+        .profile-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #e8f0fe; /* Light green background */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+            animation: profile-appear 1s ease-in-out forwards; /* Slide-in animation */
+        }
 
+         profile-appear {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card-header {
+            background-color: #28a745; /* Green header */
+            color: white; /* White text */
+            border-radius: 5px 5px 0 0; /* Rounded top corners */
+            padding: 15px;
+        }
+
+        .card-text {
+            font-size: 18px; /* Larger font size for better readability */
+            line-height: 1.5; /* Increased line-height for better spacing */
+        }
+    </style>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 profile-container animate__animated">
+                <h1 class="card-header">Your Profile</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <label for="name" class="col-sm-3 col-form-label">Name:</label>
+                            <div class="col-sm-9">
+                                <p class="card-text">@Model.UserName</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="email" class="col-sm-3 col-form-label">Email:</label>
+                            <div class="col-sm-9">
+                                <p class="card-text">@Model.Email</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="phone" class="col-sm-3 col-form-label">Phone:</label>
+                            <div class="col-sm-9">
+                                <p class="card-text">@Model.Phone</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 
+    <script src="https://cdn.jsdelivr.net.npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVFQWjxhN9lmOUWCwS2y9NykOqUExWr4z/+ljvWq6Jlw9"   
+ crossorigin="anonymous"></script>
 

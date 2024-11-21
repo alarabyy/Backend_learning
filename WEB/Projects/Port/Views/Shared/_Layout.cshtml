@@ -11,59 +11,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
 
-                <img src="https://localhost:50725/img/shup.jpg" alt="Port Logo" width="80" height="50" class="d-inline-block align-middle border-secondary" style="border-radius:5px;">
+    @* ///////////////////////////////////////////////////////////////// *@
 
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link  btn-info btn-close-white m-2 border-bottom alert-light blockquote align-content-center shadow " style="border-radius: 10px;" asp-area="" asp-controller="Home" asp-action="Index"> Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  btn-info btn-close-white m-2 border-bottom alert-light align-content-lg-stretch align-content-center" style="border-radius: 10px;" asp-area="" asp-controller="Profile" asp-action="Profile">Your Profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  btn-info btn-close-white m-2 border-bottom alert-light align-content-lg-stretch align-content-center" style="border-radius: 10px;" asp-area="" asp-controller="Create" asp-action="Create">Create shipment</a>
-                        </li>
+    @* @Html.Partial("_NavPartial"); *@
+    @await Html.PartialAsync("_NavPartial");
 
-                        <li class="nav-item">
-                            <a class="nav-link  btn-info btn-close-white m-2 border-bottom alert-light align-content-lg-stretch align-content-center" style="border-radius: 10px;" asp-area="" asp-controller="Details" asp-action="Details">Your shipment</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  btn-info btn-close-white m-2 border-bottom alert-light align-content-lg-stretch align-content-center" style="border-radius: 10px;" asp-area="" asp-controller="AllData" asp-action="AllData">All shipment</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  btn-info btn-close-white m-2 border-bottom alert-light align-content-lg-stretch align-content-center" style="border-radius: 10px;" asp-area="" asp-controller="Docs" asp-action="Docs">Your DOCS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  btn btn-outline-warning border-3  m-2 border-bottom " style="border-radius: 10px;" asp-area="" asp-controller="Login" asp-action="Login">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  btn btn-outline-warning border-3 m-2 border-bottom " style="border-radius: 10px;" asp-area="" asp-controller="Signin" asp-action="Signin">Signin</a>
-                        </li>
+    @* ///////////////////////////////////////////////////////////////// *@
 
-                    </ul>
-                </div>
-            </div>
-
-        </nav>
-    </header>
     <div class="container animate__animated animate__fadeInDown">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
     <hr />
-    <footer class=" text-center ">
-        <h5>&copy; 2024 - Port - Alaraby</h5>
-    </footer>
+    @* ///////////////////////////////////////////////////////////////// *@
+
+    <partial name="_FooterPartial"/>
+
+    @* ///////////////////////////////////////////////////////////////// *@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

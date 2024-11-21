@@ -21,21 +21,25 @@
                 <th>Order Date</th>
                 <th>Order Time</th>
                 <th>Type</th>
+                <th>AllPrice</th>
                 <th>Actions</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
+                var all = item.OrderPrice * item.OrderQuantity;
                 <tr>
 
                     <td>@Html.DisplayFor(ItemTest=> item.OrderName)</td>
                     <td>@Html.DisplayFor(ItemTest=> item.OrderDescription)</td>
                     <td>@Html.DisplayFor(ItemTest=> item.OrderPrice)</td>
-                    <td>@Html.DisplayFor(ItemTest=> item.OrderQuantity)</td>
+                    <td>@Html.DisplayFor(ItemTest => item.OrderQuantity)</td>
                     <td>@Html.DisplayFor(ItemTest=> item.OrderDate)</td>
                     <td>@Html.DisplayFor(ItemTest=> item.OrderTime)</td>
                     <td>@Html.DisplayFor(ItemTest=> item.OrderType)</td>
+                    <td>@Html.DisplayFor(ItemTest => all)</td>
+
                     <td>
 
                         <a asp-action="Edit" asp-controller="Edit" asp-route-id="@item.OrderId" class="btn btn-sm btn-primary">Edit</a>

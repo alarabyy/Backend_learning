@@ -4,6 +4,7 @@
 }
 
 <div class="container mt-4 animate__animated animate__fadeIn">
+    <div asp-validation-summary="All" class="text-danger"></div>
     <h1 class="mb-4 text-center">Create New Shipment</h1>
     <form asp-action="Create"  method="post" enctype="multipart/form-data">
         <div class="row">

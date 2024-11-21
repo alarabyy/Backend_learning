@@ -1,0 +1,98 @@
+﻿@model Port.ViewModel.RegisterUserViewModel
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_myLayout";
+}
+
+<div class="container mt-5 mb-5">
+    <h1 class="border-bottom border-2 border-success text-success font-monospace text-center">Signin</h1>
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-3 ">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-success text-white text-center">
+                    <h3>Sign In</h3>
+                </div>
+                <div class="card-body p-3">
+                    <form method="post" asp-action="Register">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group mb-3">
+                            <label asp-for="UserName" class="form-label">Name:</label>
+                            <input asp-for="UserName" class="form-control border-success" placeholder="Enter your name" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label">Email:</label>
+                            <input asp-for="Email" class="form-control border-success" placeholder="Enter your email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Phone" class="form-label">Phone:</label>
+                            <input asp-for="Phone" class="form-control border-success" placeholder="Enter your phone number" />
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Password" class="form-label">Password:</label>
+                            <input asp-for="Password" type="password" class="form-control border-success" placeholder="Enter your password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="ConfirmPassword" class="form-label">ConfirmPassword:</label>
+                            <input asp-for="ConfirmPassword" type="password" class="form-control border-success" placeholder="Enter your password" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                  
+        
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-success w-100">Register</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <small class="text-muted">Already have an account? <a asp-action="Login" asp-controller="Register" class="text-success">Log in</a></small>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-3 ">
+            <div class="container">
+                <div class="row align-items-center">
+                    <hr class="alert-light shadow-lg bg-danger border-danger" />
+                    <hr class="alert-light shadow-lg bg-danger border-danger" />
+
+                    <div class=" text-center text-md-start">
+                        <br />
+                        <br />
+                        <h1 class="typed"></h1>
+                        <hr />
+                        <h1 class="typed2"></h1>
+
+                    </div>
+                  
+                </div>
+                <hr class="alert-light shadow-lg bg-danger border-danger" />
+                <hr class="alert-light shadow-lg bg-danger border-danger" />
+            </div>
+          
+
+
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+            <script>
+                var typed = new Typed('.typed', {
+                    strings: ['Welcome EVERY ONE in My Port shipment', ' Hello  my Expensive Family'],
+                    typeSpeed: 60,
+                    backSpeed: 10,
+                    loop: true
+                });
+                var typed2 = new Typed('.typed2', {
+                    strings: ['Thank  You Every One....', ' Thank  You Every One....'],
+                    typeSpeed: 60,
+                    backSpeed: 10,
+                    loop: true
+                });
+            </script>
+        </div>
+    </div>
+    <hr class="border-bottom border-2 border-success"/>
+
+</div>

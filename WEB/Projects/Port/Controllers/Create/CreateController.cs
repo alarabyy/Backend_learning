@@ -24,13 +24,24 @@ namespace Port.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Orders.Add(order);
+                var silverOrder = new Order
+                {
+                    OrderId = order.OrderId,
+                    OrderName = order.OrderName,
+                    OrderQuantity = order.OrderQuantity,
+                    OrderPrice = order.OrderPrice,
+                    OrderType = order.OrderType,
+                    OrderDescription = order.OrderDescription ?? "No Description Provided"
+                };
+
+                _context.Orders.Add(silverOrder);
                 _context.SaveChanges();
-                return RedirectToAction("Details", "Details", new { id = order.OrderId });
+
+                return RedirectToAction("Details", "Details", new { id = silverOrder.OrderId });
             }
+
             return View(order);
         }
-        ///////////////////////////////////////////////////////////////////////////
 
     }
 }
